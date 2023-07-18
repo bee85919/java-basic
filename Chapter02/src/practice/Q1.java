@@ -1,4 +1,4 @@
-package practice1;
+package practice;
 
 import java.util.Scanner;
 
@@ -16,15 +16,12 @@ public class Q1 {
 		System.out.println("Enter grade: ");
 		score = scanner.nextInt();
 		
-		if (score >= 90) {
-			
-			grade = 'A';
-			
+		if (score >= 90) {			
+			grade = 'A';			
 		}
-		else {
-			
-			grade = 'B';
-			
+		
+		else {			
+			grade = 'B';			
 		}
 		
 		System.out.println("Grade: " + grade);

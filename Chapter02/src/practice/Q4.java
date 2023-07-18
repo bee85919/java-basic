@@ -1,4 +1,4 @@
-package practice1;
+package practice;
 
 import java.util.Scanner;
 
@@ -31,7 +31,8 @@ public class Q4 {
             if (i < lineCount / 2) {
                 spaceCount--;
                 starCount += 2;
-            } else {
+            }
+            else {
                 spaceCount++;
                 starCount -= 2;
             }

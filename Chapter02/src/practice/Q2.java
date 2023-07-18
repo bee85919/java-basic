@@ -1,4 +1,4 @@
-package practice1;
+package practice;
 
 public class Q2 {
 
@@ -11,13 +11,11 @@ public class Q2 {
 			
 			if (num1 %2 != 0) continue;
 			
-			for (num2 = 1; num2 <= 9; num2++) {
-				
-				System.out.println(num1 + "*" + num2 + "=" + num1*num2);
-				
+			for (num2 = 1; num2 <= 9; num2++) {				
+				System.out.println(num1 + "*" + num2 + "=" + num1*num2);				
 			}
-			System.out.println();
 			
+			System.out.println();			
 		}
 		
 	}
